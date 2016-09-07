@@ -91,3 +91,11 @@ html.wf-loading body {
 .shhht {
   display: none;
 }
+
+@media all and (max-width: 950px) {
+  .grid {
+    width: 100vw;
+    font-size: 0.9em;
+    word-wrap: break-word;
+  }
+}
