@@ -1,0 +1,7 @@
+body {
+  color: grey;
+}
+
+.grid div {
+  border-color: grey !important;
+}

@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  color: #fff;
+  font-family: 'myriad-pro';
+  font-weight: 300;
+  transition: color .2s;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+html.wf-loading body {
+  color: rgba(0,0,0,0) !important;
+}
+
+.full-bg {
+  background: linear-gradient(#000, #4f4d62);
+  width: 100vw;
+  height: 100vh;
+}
+
+.v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis:20%;
+  width: 80vw;
+
+  height: 70vh;
+}
+
+.grid div {
+  width: 20%;
+  min-height: 50px;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.grid div:nth-child(5n) {
+  border-right: 1px solid #fff;
+}
+
+.grid div:nth-child(n+21) {
+  border-bottom: 1px solid #fff;
+}
+
+.grid div.active {
+   background: #fff;
+   color: #000;
+}
+
+.buttonbar {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 1.5rem;
+}
+
+.icon svg {
+  width: 1.8em;
+  height: 1.8em;
+  fill: rgba(255,255,255,0.8);
+  cursor: pointer;
+}
+
+.icon svg:hover {
+  fill: rgba(255,255,255,1);
+}
+
+.shhht {
+  display: none;
+}
