@@ -76,6 +76,11 @@ html.wf-loading body {
   justify-content: space-between;
 
   margin-top: 1.5rem;
+  user-select: none;
+}
+
+.buttonbar a {
+  text-decoration: none;
 }
 
 .icon svg {
