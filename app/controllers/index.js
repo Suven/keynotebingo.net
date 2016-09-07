@@ -27,6 +27,7 @@ export default Ember.Controller.extend({
     'available today',
     'realtime',
     'organic',
+    '“Our best XYZ ever!”',
     'opti&shy;mization',
     'wearables',
     'Eddy Cue wears an Aloah shirt',
